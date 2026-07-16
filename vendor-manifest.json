@@ -1,0 +1,105 @@
+{
+  "$schema": "https://skills.prezus.dev/vendor-manifest.schema.json",
+  "description": "Provenance for skills vendored from third-party repos. Do not hand-edit vendored skill files; re-sync per VENDORING.md.",
+  "vendors": [
+    {
+      "source": "mattpocock/skills",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "license": "MIT",
+      "pinnedCommit": "9603c1cc8118d08bc1b3bf34cf714f62178dea3b",
+      "pinnedRef": "main",
+      "vendoredOn": "2026-07-16",
+      "upstreamPrefix": "skills/",
+      "skills": [
+        {
+          "name": "ask-matt",
+          "upstreamPath": "skills/engineering/ask-matt/SKILL.md"
+        },
+        {
+          "name": "diagnosing-bugs",
+          "upstreamPath": "skills/engineering/diagnosing-bugs/SKILL.md"
+        },
+        {
+          "name": "grill-with-docs",
+          "upstreamPath": "skills/engineering/grill-with-docs/SKILL.md"
+        },
+        {
+          "name": "triage",
+          "upstreamPath": "skills/engineering/triage/SKILL.md"
+        },
+        {
+          "name": "improve-codebase-architecture",
+          "upstreamPath": "skills/engineering/improve-codebase-architecture/SKILL.md"
+        },
+        {
+          "name": "setup-matt-pocock-skills",
+          "upstreamPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md"
+        },
+        {
+          "name": "tdd",
+          "upstreamPath": "skills/engineering/tdd/SKILL.md"
+        },
+        {
+          "name": "to-spec",
+          "upstreamPath": "skills/engineering/to-spec/SKILL.md"
+        },
+        {
+          "name": "to-tickets",
+          "upstreamPath": "skills/engineering/to-tickets/SKILL.md"
+        },
+        {
+          "name": "wayfinder",
+          "upstreamPath": "skills/engineering/wayfinder/SKILL.md"
+        },
+        {
+          "name": "implement",
+          "upstreamPath": "skills/engineering/implement/SKILL.md"
+        },
+        {
+          "name": "prototype",
+          "upstreamPath": "skills/engineering/prototype/SKILL.md"
+        },
+        {
+          "name": "research",
+          "upstreamPath": "skills/engineering/research/SKILL.md"
+        },
+        {
+          "name": "domain-modeling",
+          "upstreamPath": "skills/engineering/domain-modeling/SKILL.md"
+        },
+        {
+          "name": "codebase-design",
+          "upstreamPath": "skills/engineering/codebase-design/SKILL.md"
+        },
+        {
+          "name": "code-review",
+          "upstreamPath": "skills/engineering/code-review/SKILL.md"
+        },
+        {
+          "name": "resolving-merge-conflicts",
+          "upstreamPath": "skills/engineering/resolving-merge-conflicts/SKILL.md"
+        },
+        {
+          "name": "grill-me",
+          "upstreamPath": "skills/productivity/grill-me/SKILL.md"
+        },
+        {
+          "name": "grilling",
+          "upstreamPath": "skills/productivity/grilling/SKILL.md"
+        },
+        {
+          "name": "handoff",
+          "upstreamPath": "skills/productivity/handoff/SKILL.md"
+        },
+        {
+          "name": "teach",
+          "upstreamPath": "skills/productivity/teach/SKILL.md"
+        },
+        {
+          "name": "writing-great-skills",
+          "upstreamPath": "skills/productivity/writing-great-skills/SKILL.md"
+        }
+      ]
+    }
+  ]
+}
