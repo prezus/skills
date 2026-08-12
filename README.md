@@ -14,9 +14,11 @@ directory containing a `SKILL.md` (YAML frontmatter + Markdown body), optionally
 skills/                     # every skill lives here, one level deep (name = slash command)
   <our-skills>/SKILL.md     # skills we author
   code-review/SKILL.md      # vendored from mattpocock/skills — do NOT hand-edit
-  tdd/SKILL.md              # "
+  install-anti-slop/        # vendored from dmmulroy/anti-slop — includes scripts/assets
+  tdd/SKILL.md              # vendored from mattpocock/skills — do NOT hand-edit
   ...
   LICENSE-mattpocock        # upstream MIT license, preserved for attribution
+  LICENSE-dmmulroy-anti-slop # upstream MIT license, preserved for attribution
 vendor-manifest.json        # provenance: upstream source, pinned commit, per-skill mapping
 VENDORING.md                # how to sync / update vendored skills — READ BEFORE re-syncing
 NOTICE                      # attribution
@@ -44,9 +46,10 @@ agents read**, so this two-symlink fan-out is the minimum that covers all five.
 
 ## Vendored skills
 
-Currently vendored from [mattpocock/skills](https://github.com/mattpocock/skills)
-(MIT, pinned — see `vendor-manifest.json`). These are the 22 skills Matt ships in his
-Claude Code plugin (`engineering` + `productivity`):
+Vendored sources are pinned in `vendor-manifest.json`:
+
+- [mattpocock/skills](https://github.com/mattpocock/skills) (MIT): the 22 skills Matt
+  ships in his Claude Code plugin (`engineering` + `productivity`).
 
 **Engineering:** `ask-matt` · `code-review` · `codebase-design` · `diagnosing-bugs` ·
 `domain-modeling` · `grill-with-docs` · `implement` · `improve-codebase-architecture` ·
@@ -54,6 +57,9 @@ Claude Code plugin (`engineering` + `productivity`):
 `tdd` · `to-spec` · `to-tickets` · `triage` · `wayfinder`
 
 **Productivity:** `grill-me` · `grilling` · `handoff` · `teach` · `writing-great-skills`
+
+- [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) (MIT):
+  `install-anti-slop`, including its bundled Oxlint plugin and installer.
 
 > **Do not hand-edit vendored skills.** They are re-synced from upstream. To change one,
 > either adopt it (move it out of the vendored set and record that in `vendor-manifest.json`)
@@ -65,7 +71,8 @@ Some of these (`triage`, `to-tickets`, `code-review`, `implement`) expect you to
 
 ## Credits
 
-Vendored skills © Matt Pocock, MIT-licensed — see `skills/LICENSE-mattpocock`. Thanks to
-Matt for the [skills](https://github.com/mattpocock/skills) collection and the
-`writing-great-skills` skill. Vendoring workflow inspired by
+Vendored skills © Matt Pocock and Dillon Mulroy, MIT-licensed — see
+`skills/LICENSE-mattpocock` and `skills/LICENSE-dmmulroy-anti-slop`. Thanks to Matt for
+the [skills](https://github.com/mattpocock/skills) collection and to Dillon for
+[anti-slop](https://github.com/dmmulroy/anti-slop). Vendoring workflow inspired by
 [dmmulroy/skills](https://github.com/dmmulroy/skills).

@@ -7,6 +7,12 @@ Vendored under: skills/  (the 22 skills listed in vendor-manifest.json)
 Full license text: skills/LICENSE-mattpocock
 Pinned commit & per-skill provenance: vendor-manifest.json
 ------------------------------------------------------------------------
+dmmulroy/anti-slop  —  https://github.com/dmmulroy/anti-slop
+License: MIT  (© 2026 Dillon Mulroy)
+Vendored under: skills/install-anti-slop/
+Full license text: skills/LICENSE-dmmulroy-anti-slop
+Pinned commit & skill provenance: vendor-manifest.json
+------------------------------------------------------------------------
 
 Vendored skill files are copies of upstream and are not hand-edited here;
 see VENDORING.md. Our own original work in this repository is licensed under

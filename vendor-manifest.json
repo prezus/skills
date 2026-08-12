@@ -100,6 +100,21 @@
           "upstreamPath": "skills/productivity/writing-great-skills/SKILL.md"
         }
       ]
+    },
+    {
+      "source": "dmmulroy/anti-slop",
+      "sourceUrl": "https://github.com/dmmulroy/anti-slop.git",
+      "license": "MIT",
+      "pinnedCommit": "b5d2288db1f00469a1d5f2e3b0e265e5a5676fd0",
+      "pinnedRef": "main",
+      "vendoredOn": "2026-08-12",
+      "upstreamPrefix": "skills/",
+      "skills": [
+        {
+          "name": "install-anti-slop",
+          "upstreamPath": "skills/install-anti-slop/SKILL.md"
+        }
+      ]
     }
   ]
 }

@@ -1,8 +1,7 @@
 # Vendoring & syncing guidelines
 
-How we bring third-party skills into this repo and keep them up to date. Right now the
-only upstream is [`mattpocock/skills`](https://github.com/mattpocock/skills), but the
-process generalizes to any source.
+How we bring third-party skills into this repo and keep them up to date. Current upstreams
+are recorded in `vendor-manifest.json`; the process below generalizes to any source.
 
 ## Principles
 
@@ -16,12 +15,12 @@ process generalizes to any source.
    `vendor-manifest.json` and only move it when we've read the diff.
 4. **Flatten, don't nest.** Upstream groups skills in `engineering/`, `productivity/`, …
    Agents discover skills only one level deep, so we vendor them flat: `skills/<name>/`.
-5. **Preserve provenance and license.** Update `vendor-manifest.json` and keep
-   `skills/LICENSE-mattpocock` (MIT requires the notice to travel with the copy).
+5. **Preserve provenance and license.** Update `vendor-manifest.json` and keep each
+   vendor's license file (MIT requires the notice to travel with the copy).
 
 ## What is vendored
 
-The set is defined by the upstream plugin manifest
+For `mattpocock/skills`, the set is defined by the upstream plugin manifest
 (`.claude-plugin/plugin.json` → `skills[]`), which is Matt's curated, shipped list —
 currently 22 skills (`engineering` + `productivity`). We deliberately **exclude**
 `in-progress/`, `deprecated/`, `personal/`, and `misc/` — they're experimental or
@@ -60,8 +59,8 @@ carry and where each came from upstream.
    `scripts/` that run commands, (c) new config dependencies (e.g. a skill that now needs
    `docs/agents/…`).
 6. **Update provenance.** Bump `pinnedCommit`, `pinnedRef`, `vendoredOn`, and the `skills[]`
-   list in `vendor-manifest.json`. Refresh `skills/LICENSE-mattpocock` if upstream's
-   changed. Update the vendored list in `README.md` if the set changed.
+   list in `vendor-manifest.json`. Refresh the vendor's license file if upstream's changed.
+   Update the vendored list in `README.md` if the set changed.
 7. **Commit** with the upstream SHA in the message, e.g.
    `chore(vendor): sync mattpocock/skills @ <short-sha>`.
 
@@ -109,6 +108,6 @@ hence the flatten step. Full install steps live in `dotfiles/INSTALL.md`.
 - [ ] Flattened + replaced each skill wholesale
 - [ ] Reconciled added / removed / renamed skills (respected adopted skills)
 - [ ] Read the diff
-- [ ] Updated `vendor-manifest.json` (commit, date, skill list) + `LICENSE-mattpocock`
+- [ ] Updated `vendor-manifest.json` (commit, date, skill list) + the vendor license
 - [ ] Updated `README.md` vendored list if the set changed
 - [ ] Committed with the upstream short-SHA in the message
