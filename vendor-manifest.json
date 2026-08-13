@@ -115,6 +115,21 @@
           "upstreamPath": "skills/install-anti-slop/SKILL.md"
         }
       ]
+    },
+    {
+      "source": "herdrdev/herdr",
+      "sourceUrl": "https://github.com/herdrdev/herdr.git",
+      "license": "Apache-2.0",
+      "pinnedCommit": "346411fa21afd297f5ed3b3fa56f9e3fbf7654b7",
+      "pinnedRef": "v0.8.0",
+      "vendoredOn": "2026-08-13",
+      "upstreamPrefix": "skills/",
+      "skills": [
+        {
+          "name": "herdr",
+          "upstreamPath": "skills/herdr/SKILL.md"
+        }
+      ]
     }
   ]
 }

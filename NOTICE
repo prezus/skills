@@ -13,6 +13,12 @@ Vendored under: skills/install-anti-slop/
 Full license text: skills/LICENSE-dmmulroy-anti-slop
 Pinned commit & skill provenance: vendor-manifest.json
 ------------------------------------------------------------------------
+herdrdev/herdr  —  https://github.com/herdrdev/herdr
+License: Apache-2.0
+Vendored under: skills/herdr/
+Full license text: skills/LICENSE-herdr
+Pinned commit & skill provenance: vendor-manifest.json
+------------------------------------------------------------------------
 
 Vendored skill files are copies of upstream and are not hand-edited here;
 see VENDORING.md. Our own original work in this repository is licensed under

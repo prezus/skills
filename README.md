@@ -19,6 +19,7 @@ skills/                     # every skill lives here, one level deep (name = sla
   ...
   LICENSE-mattpocock        # upstream MIT license, preserved for attribution
   LICENSE-dmmulroy-anti-slop # upstream MIT license, preserved for attribution
+  LICENSE-herdr              # upstream Apache-2.0 license, preserved for attribution
 vendor-manifest.json        # provenance: upstream source, pinned commit, per-skill mapping
 VENDORING.md                # how to sync / update vendored skills — READ BEFORE re-syncing
 NOTICE                      # attribution
@@ -61,6 +62,10 @@ Vendored sources are pinned in `vendor-manifest.json`:
 - [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) (MIT):
   `install-anti-slop`, including its bundled Oxlint plugin and installer.
 
+- [herdrdev/herdr](https://github.com/herdrdev/herdr) (Apache-2.0): `herdr`, the
+  release-matched instructions for controlling Herdr panes, tabs, workspaces, commands,
+  and agents.
+
 > **Do not hand-edit vendored skills.** They are re-synced from upstream. To change one,
 > either adopt it (move it out of the vendored set and record that in `vendor-manifest.json`)
 > or contribute the change upstream. See [VENDORING.md](./VENDORING.md).
@@ -71,8 +76,9 @@ Some of these (`triage`, `to-tickets`, `code-review`, `implement`) expect you to
 
 ## Credits
 
-Vendored skills © Matt Pocock and Dillon Mulroy, MIT-licensed — see
-`skills/LICENSE-mattpocock` and `skills/LICENSE-dmmulroy-anti-slop`. Thanks to Matt for
-the [skills](https://github.com/mattpocock/skills) collection and to Dillon for
-[anti-slop](https://github.com/dmmulroy/anti-slop). Vendoring workflow inspired by
+Vendored skills retain their upstream licenses — see `skills/LICENSE-mattpocock`,
+`skills/LICENSE-dmmulroy-anti-slop`, and `skills/LICENSE-herdr`. Thanks to Matt Pocock
+for the [skills](https://github.com/mattpocock/skills) collection, Dillon Mulroy for
+[anti-slop](https://github.com/dmmulroy/anti-slop), and the Herdr contributors for
+[Herdr](https://github.com/herdrdev/herdr). Vendoring workflow inspired by
 [dmmulroy/skills](https://github.com/dmmulroy/skills).

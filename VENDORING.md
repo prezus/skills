@@ -24,8 +24,14 @@ For `mattpocock/skills`, the set is defined by the upstream plugin manifest
 (`.claude-plugin/plugin.json` → `skills[]`), which is Matt's curated, shipped list —
 currently 22 skills (`engineering` + `productivity`). We deliberately **exclude**
 `in-progress/`, `deprecated/`, `personal/`, and `misc/` — they're experimental or
-Matt-specific. `vendor-manifest.json` is the source of truth for exactly which skills we
-carry and where each came from upstream.
+Matt-specific.
+
+For `herdrdev/herdr`, we vendor the single release-matched `skills/herdr/SKILL.md` file.
+Pin a Herdr release tag and resolved commit, and refresh `skills/LICENSE-herdr` when
+updating it. `herdr --skill` may be used when the installed binary matches that release.
+
+`vendor-manifest.json` is the source of truth for exactly which skills we carry and where
+each came from upstream.
 
 ## Syncing to a newer upstream
 
