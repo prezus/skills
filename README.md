@@ -19,6 +19,7 @@ skills/                     # every skill lives here, one level deep (name = sla
   ...
   LICENSE-mattpocock        # upstream MIT license, preserved for attribution
   LICENSE-dmmulroy-anti-slop # upstream MIT license, preserved for attribution
+  LICENSE-dmmulroy-skills    # upstream MIT license, preserved for attribution
   LICENSE-herdr              # upstream Apache-2.0 license, preserved for attribution
 vendor-manifest.json        # provenance: upstream source, pinned commit, per-skill mapping
 VENDORING.md                # how to sync / update vendored skills — READ BEFORE re-syncing
@@ -49,18 +50,22 @@ agents read**, so this two-symlink fan-out is the minimum that covers all five.
 
 Vendored sources are pinned in `vendor-manifest.json`:
 
-- [mattpocock/skills](https://github.com/mattpocock/skills) (MIT): the 22 skills Matt
+- [mattpocock/skills](https://github.com/mattpocock/skills) (MIT): the 25 skills Matt
   ships in his Claude Code plugin (`engineering` + `productivity`).
 
 **Engineering:** `ask-matt` · `code-review` · `codebase-design` · `diagnosing-bugs` ·
 `domain-modeling` · `grill-with-docs` · `implement` · `improve-codebase-architecture` ·
 `prototype` · `research` · `resolving-merge-conflicts` · `setup-matt-pocock-skills` ·
-`tdd` · `to-spec` · `to-tickets` · `triage` · `wayfinder`
+`tdd` · `to-spec` · `to-tickets` · `triage` · `wayfinder` · `wizard`
 
-**Productivity:** `grill-me` · `grilling` · `handoff` · `teach` · `writing-great-skills`
+**Productivity:** `grill-me` · `grilling` · `handoff` · `teach` · `to-questionnaire` ·
+`wait-what` · `writing-for-agents`
 
 - [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) (MIT):
   `install-anti-slop`, including its bundled Oxlint plugin and installer.
+
+- [dmmulroy/skills](https://github.com/dmmulroy/skills) (MIT): `bro` and
+  `coding-standards`.
 
 - [herdrdev/herdr](https://github.com/herdrdev/herdr) (Apache-2.0): `herdr`, the
   release-matched instructions for controlling Herdr panes, tabs, workspaces, commands,
@@ -77,8 +82,10 @@ Some of these (`triage`, `to-tickets`, `code-review`, `implement`) expect you to
 ## Credits
 
 Vendored skills retain their upstream licenses — see `skills/LICENSE-mattpocock`,
-`skills/LICENSE-dmmulroy-anti-slop`, and `skills/LICENSE-herdr`. Thanks to Matt Pocock
-for the [skills](https://github.com/mattpocock/skills) collection, Dillon Mulroy for
-[anti-slop](https://github.com/dmmulroy/anti-slop), and the Herdr contributors for
-[Herdr](https://github.com/herdrdev/herdr). Vendoring workflow inspired by
-[dmmulroy/skills](https://github.com/dmmulroy/skills).
+`skills/LICENSE-dmmulroy-anti-slop`, `skills/LICENSE-dmmulroy-skills`, and
+`skills/LICENSE-herdr`. Thanks to Matt Pocock for the
+[skills](https://github.com/mattpocock/skills) collection, Dillon Mulroy for
+[anti-slop](https://github.com/dmmulroy/anti-slop) and the selected skills from
+[dmmulroy/skills](https://github.com/dmmulroy/skills), and the Herdr contributors for
+[Herdr](https://github.com/herdrdev/herdr). The vendoring workflow was also inspired by
+`dmmulroy/skills`.

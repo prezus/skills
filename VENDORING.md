@@ -22,9 +22,12 @@ are recorded in `vendor-manifest.json`; the process below generalizes to any sou
 
 For `mattpocock/skills`, the set is defined by the upstream plugin manifest
 (`.claude-plugin/plugin.json` → `skills[]`), which is Matt's curated, shipped list —
-currently 22 skills (`engineering` + `productivity`). We deliberately **exclude**
+currently 25 skills (`engineering` + `productivity`). We deliberately **exclude**
 `in-progress/`, `deprecated/`, `personal/`, and `misc/` — they're experimental or
 Matt-specific.
+
+For `dmmulroy/skills`, we vendor only the selected root-level `bro` and
+`coding-standards` skills.
 
 For `herdrdev/herdr`, we vendor the single release-matched `skills/herdr/SKILL.md` file.
 Pin a Herdr release tag and resolved commit, and refresh `skills/LICENSE-herdr` when

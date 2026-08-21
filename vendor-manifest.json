@@ -6,9 +6,9 @@
       "source": "mattpocock/skills",
       "sourceUrl": "https://github.com/mattpocock/skills.git",
       "license": "MIT",
-      "pinnedCommit": "9603c1cc8118d08bc1b3bf34cf714f62178dea3b",
+      "pinnedCommit": "5b15a47f2d7150f545fbcacbfe381787fc0230dc",
       "pinnedRef": "main",
-      "vendoredOn": "2026-07-16",
+      "vendoredOn": "2026-08-21",
       "upstreamPrefix": "skills/",
       "skills": [
         {
@@ -80,6 +80,10 @@
           "upstreamPath": "skills/engineering/resolving-merge-conflicts/SKILL.md"
         },
         {
+          "name": "wizard",
+          "upstreamPath": "skills/engineering/wizard/SKILL.md"
+        },
+        {
           "name": "grill-me",
           "upstreamPath": "skills/productivity/grill-me/SKILL.md"
         },
@@ -96,8 +100,16 @@
           "upstreamPath": "skills/productivity/teach/SKILL.md"
         },
         {
-          "name": "writing-great-skills",
-          "upstreamPath": "skills/productivity/writing-great-skills/SKILL.md"
+          "name": "to-questionnaire",
+          "upstreamPath": "skills/productivity/to-questionnaire/SKILL.md"
+        },
+        {
+          "name": "wait-what",
+          "upstreamPath": "skills/productivity/wait-what/SKILL.md"
+        },
+        {
+          "name": "writing-for-agents",
+          "upstreamPath": "skills/productivity/writing-for-agents/SKILL.md"
         }
       ]
     },
@@ -105,9 +117,9 @@
       "source": "dmmulroy/anti-slop",
       "sourceUrl": "https://github.com/dmmulroy/anti-slop.git",
       "license": "MIT",
-      "pinnedCommit": "b5d2288db1f00469a1d5f2e3b0e265e5a5676fd0",
+      "pinnedCommit": "6d538555cb151d4121ed51a27db81890eacf8ae9",
       "pinnedRef": "main",
-      "vendoredOn": "2026-08-12",
+      "vendoredOn": "2026-08-21",
       "upstreamPrefix": "skills/",
       "skills": [
         {
@@ -117,12 +129,31 @@
       ]
     },
     {
+      "source": "dmmulroy/skills",
+      "sourceUrl": "https://github.com/dmmulroy/skills.git",
+      "license": "MIT",
+      "pinnedCommit": "8603380821fee6a77c82639f364ce8fe4f5a92be",
+      "pinnedRef": "main",
+      "vendoredOn": "2026-08-21",
+      "upstreamPrefix": "",
+      "skills": [
+        {
+          "name": "bro",
+          "upstreamPath": "bro/SKILL.md"
+        },
+        {
+          "name": "coding-standards",
+          "upstreamPath": "coding-standards/SKILL.md"
+        }
+      ]
+    },
+    {
       "source": "herdrdev/herdr",
       "sourceUrl": "https://github.com/herdrdev/herdr.git",
       "license": "Apache-2.0",
-      "pinnedCommit": "346411fa21afd297f5ed3b3fa56f9e3fbf7654b7",
-      "pinnedRef": "v0.8.0",
-      "vendoredOn": "2026-08-13",
+      "pinnedCommit": "9eb521456ac0d19d3ab3d9d7cea3cca10baa8a4c",
+      "pinnedRef": "v0.8.2",
+      "vendoredOn": "2026-08-21",
       "upstreamPrefix": "skills/",
       "skills": [
         {
