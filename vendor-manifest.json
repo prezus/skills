@@ -161,6 +161,21 @@
           "upstreamPath": "skills/herdr/SKILL.md"
         }
       ]
+    },
+    {
+      "source": "cursor/plugins",
+      "sourceUrl": "https://github.com/cursor/plugins.git",
+      "license": "MIT",
+      "pinnedCommit": "46125561306434d8a1d7745d540d8932ab0cd2a2",
+      "pinnedRef": "main",
+      "vendoredOn": "2026-08-21",
+      "upstreamPrefix": "pstack/skills/",
+      "skills": [
+        {
+          "name": "unslop",
+          "upstreamPath": "pstack/skills/unslop/SKILL.md"
+        }
+      ]
     }
   ]
 }

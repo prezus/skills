@@ -21,6 +21,7 @@ skills/                     # every skill lives here, one level deep (name = sla
   LICENSE-dmmulroy-anti-slop # upstream MIT license, preserved for attribution
   LICENSE-dmmulroy-skills    # upstream MIT license, preserved for attribution
   LICENSE-herdr              # upstream Apache-2.0 license, preserved for attribution
+  LICENSE-cursor-plugins-pstack # upstream MIT license, preserved for attribution
 vendor-manifest.json        # provenance: upstream source, pinned commit, per-skill mapping
 VENDORING.md                # how to sync / update vendored skills — READ BEFORE re-syncing
 NOTICE                      # attribution
@@ -71,6 +72,9 @@ Vendored sources are pinned in `vendor-manifest.json`:
   release-matched instructions for controlling Herdr panes, tabs, workspaces, commands,
   and agents.
 
+- [cursor/plugins](https://github.com/cursor/plugins/tree/main/pstack) (MIT): `unslop`
+  from the pstack plugin.
+
 > **Do not hand-edit vendored skills.** They are re-synced from upstream. To change one,
 > either adopt it (move it out of the vendored set and record that in `vendor-manifest.json`)
 > or contribute the change upstream. See [VENDORING.md](./VENDORING.md).
@@ -82,10 +86,11 @@ Some of these (`triage`, `to-tickets`, `code-review`, `implement`) expect you to
 ## Credits
 
 Vendored skills retain their upstream licenses — see `skills/LICENSE-mattpocock`,
-`skills/LICENSE-dmmulroy-anti-slop`, `skills/LICENSE-dmmulroy-skills`, and
-`skills/LICENSE-herdr`. Thanks to Matt Pocock for the
+`skills/LICENSE-dmmulroy-anti-slop`, `skills/LICENSE-dmmulroy-skills`, `skills/LICENSE-herdr`, and
+`skills/LICENSE-cursor-plugins-pstack`. Thanks to Matt Pocock for the
 [skills](https://github.com/mattpocock/skills) collection, Dillon Mulroy for
 [anti-slop](https://github.com/dmmulroy/anti-slop) and the selected skills from
-[dmmulroy/skills](https://github.com/dmmulroy/skills), and the Herdr contributors for
-[Herdr](https://github.com/herdrdev/herdr). The vendoring workflow was also inspired by
-`dmmulroy/skills`.
+[dmmulroy/skills](https://github.com/dmmulroy/skills), the Herdr contributors for
+[Herdr](https://github.com/herdrdev/herdr), and Lauren Tan for pstack's
+[unslop](https://github.com/cursor/plugins/tree/main/pstack/skills/unslop) skill. The
+vendoring workflow was also inspired by `dmmulroy/skills`.

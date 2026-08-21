@@ -33,6 +33,9 @@ For `herdrdev/herdr`, we vendor the single release-matched `skills/herdr/SKILL.m
 Pin a Herdr release tag and resolved commit, and refresh `skills/LICENSE-herdr` when
 updating it. `herdr --skill` may be used when the installed binary matches that release.
 
+For `cursor/plugins`, we vendor only `pstack/skills/unslop/SKILL.md` and preserve the
+pstack plugin's MIT license as `skills/LICENSE-cursor-plugins-pstack`.
+
 `vendor-manifest.json` is the source of truth for exactly which skills we carry and where
 each came from upstream.
 

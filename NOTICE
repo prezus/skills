@@ -25,6 +25,12 @@ Vendored under: skills/herdr/
 Full license text: skills/LICENSE-herdr
 Pinned commit & skill provenance: vendor-manifest.json
 ------------------------------------------------------------------------
+cursor/plugins (pstack)  —  https://github.com/cursor/plugins/tree/main/pstack
+License: MIT  (© 2026 Lauren Tan)
+Vendored under: skills/unslop/
+Full license text: skills/LICENSE-cursor-plugins-pstack
+Pinned commit & skill provenance: vendor-manifest.json
+------------------------------------------------------------------------
 
 Vendored skill files are copies of upstream and are not hand-edited here;
 see VENDORING.md. Our own original work in this repository is licensed under
